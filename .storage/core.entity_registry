@@ -1,0 +1,35 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.viera_e6_series",
+                "name": null,
+                "platform": "panasonic_viera",
+                "unique_id": "4D454930-0200-1000-8001-20C6EBCC7D24"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.misak",
+                "name": null,
+                "platform": "person",
+                "unique_id": "e529456b4a74457f834ab975d76a9589"
+            },
+            {
+                "config_entry_id": "016b4f64980d4a6eb1ee99ae5fb2ef45",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.devel1",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}
