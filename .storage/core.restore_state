@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen default theme",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Set awning position",
@@ -38,7 +38,7 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen oled theme",
@@ -56,7 +56,7 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen theme Dark Cyan",
@@ -74,7 +74,7 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen theme Dark Red",
@@ -92,7 +92,7 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolit vzhled",
@@ -116,23 +116,22 @@
             }
         },
         {
-            "last_seen": "2019-08-11T16:34:22.225780+00:00",
+            "last_seen": "2019-08-11T17:49:26.003989+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Misak",
                     "id": "e529456b4a74457f834ab975d76a9589",
-                    "source": "person.misak",
                     "user_id": "76e2a05c7df1448ea2c52c31dc2f6261"
                 },
                 "context": {
-                    "id": "e9e39480947246ab9fecbb9e79ab526e",
+                    "id": "e926a4c7c30a42bba2253797fd408fd5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.misak",
                 "last_changed": "2019-08-11T16:34:08.615962+00:00",
-                "last_updated": "2019-08-11T16:34:08.615962+00:00",
+                "last_updated": "2019-08-11T16:34:22.230374+00:00",
                 "state": "unknown"
             }
         }
