@@ -1,0 +1,49 @@
+- alias: 'Set awning position'
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: input_number.okno1
+  action:
+#    - delay: '00:00:3'
+    - service: mqtt.publish
+      data_template:
+        topic: 'shellies/shellyswitch25-E66F6D/roller/0/command/pos'
+        retain: true
+        payload: "{{ states('input_number.okno1') | int }}"
+
+- alias: "Zvolen theme Dark Cyan"
+  trigger:
+    - platform: state
+      entity_id: input_select.hass_template
+      to: Cyan
+  action:
+    - service: frontend.set_theme
+      data_template:
+        name: Cyan
+- alias: "Zvolen theme Dark Red"
+  trigger:
+    - platform: state
+      entity_id: input_select.hass_template
+      to: Red
+  action:
+    - service: frontend.set_theme
+      data_template:
+        name: Red
+- alias: "Zvolen default theme"
+  trigger:
+    - platform: state
+      entity_id: input_select.hass_template
+      to: default
+  action:
+    - service: frontend.set_theme
+      data_template:
+        name: "{{ states.input_select.hass_template.state }}"
+- alias: "Zvolen oled theme"
+  trigger:
+    - platform: state
+      entity_id: input_select.hass_template
+      to: oled
+  action:
+    - service: frontend.set_theme
+      data_template:
+        name: "{{ states.input_select.hass_template.state }}"

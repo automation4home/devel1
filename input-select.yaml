@@ -1,0 +1,9 @@
+hass_template:
+    name: Zvolit vzhled
+    options:
+     - default
+     - Cyan
+     - Red
+     - oled
+    initial: Cyan
+    icon: mdi:theme-light-dark

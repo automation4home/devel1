@@ -1,0 +1,65 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+shelly:
+  discovery: true
+#  version: true
+
+frontend:
+  themes: !include themes.yaml
+
+sun:
+discovery:
+
+hacs:
+  token: !secret hacs_token
+  appdaemon: true
+  python_script: true
+  theme: true
+
+weather:
+  - platform: darksky
+    api_key: !secret darksky_api_key
+    mode: daily
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+
+
+media_player:
+  - platform: kodi
+    name: obyvak_player
+    host: !secret kodi_ip
+    port: 8080
+    username: Misak
+    password: !secret obyvak_kodi
+
+
+
+
+mqtt:
+  broker: !secret mqtt_ip
+  port: 1883
+  username: misak
+  password: !secret mqtt_password
+  discovery: true
+  discovery_prefix: homeassistant
+  birth_message:
+    topic: 'hass/status'
+    payload: 'online'
+  will_message:
+    topic: 'hass/status'
+    payload: 'offline'
+
+
+input_select: !include input-select.yaml
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
