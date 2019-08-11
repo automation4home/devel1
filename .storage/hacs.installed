@@ -1,0 +1,10 @@
+{
+    "data": {
+        "StyraHem/ShellyForHASS": {
+            "version_type": "version",
+            "version_installed": "v0.0.15",
+            "version_available": "v0.0.15"
+        }
+    },
+    "schema": "5"
+}

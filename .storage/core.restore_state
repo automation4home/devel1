@@ -1,25 +1,99 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Misak",
+                    "id": "e529456b4a74457f834ab975d76a9589",
+                    "user_id": "76e2a05c7df1448ea2c52c31dc2f6261"
+                },
+                "context": {
+                    "id": "293a7bb88d4242fc86a291ee27e22301",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.misak",
+                "last_changed": "2019-08-11T19:17:31.156417+00:00",
+                "last_updated": "2019-08-11T19:18:03.020704+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Zvolen oled theme",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "7b0927c69af64fe38df59b0edf1edd9a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.zvolen_oled_theme",
+                "last_changed": "2019-08-11T19:17:31.156649+00:00",
+                "last_updated": "2019-08-11T19:17:31.156649+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Zvolen theme Dark Cyan",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "3ab1123e5f654f5cba39a758018002eb",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.zvolen_theme_dark_cyan",
+                "last_changed": "2019-08-11T19:17:31.156889+00:00",
+                "last_updated": "2019-08-11T19:17:31.156889+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Zvolen theme Dark Red",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "a04639b4160845b2875b77347eaee92d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.zvolen_theme_dark_red",
+                "last_changed": "2019-08-11T19:17:31.157107+00:00",
+                "last_updated": "2019-08-11T19:17:31.157107+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen default theme",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "e5832bc1bcdb4d7495e61bfe7e5065db",
+                    "id": "eed321e807ba438588dbead8b67c826e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.zvolen_default_theme",
-                "last_changed": "2019-08-11T16:34:08.615244+00:00",
-                "last_updated": "2019-08-11T16:34:08.615244+00:00",
+                "last_changed": "2019-08-11T19:17:31.157320+00:00",
+                "last_updated": "2019-08-11T19:17:31.157320+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Set awning position",
@@ -27,72 +101,18 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "480f0c461c374320830f202ba53cc593",
+                    "id": "ecc79a13204048819108379542510e7b",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.set_awning_position",
-                "last_changed": "2019-08-11T16:34:08.615406+00:00",
-                "last_updated": "2019-08-11T16:34:08.615406+00:00",
+                "last_changed": "2019-08-11T19:17:31.157532+00:00",
+                "last_updated": "2019-08-11T19:17:31.157532+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Zvolen oled theme",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "9bc04438d45d47e184dacfc50d909207",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.zvolen_oled_theme",
-                "last_changed": "2019-08-11T16:34:08.615527+00:00",
-                "last_updated": "2019-08-11T16:34:08.615527+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Zvolen theme Dark Cyan",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "f0b375395a224be4a7d184194ed9214f",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.zvolen_theme_dark_cyan",
-                "last_changed": "2019-08-11T16:34:08.615644+00:00",
-                "last_updated": "2019-08-11T16:34:08.615644+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Zvolen theme Dark Red",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "35ecff9bfaf74bc0ac47769ef53592f3",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.zvolen_theme_dark_red",
-                "last_changed": "2019-08-11T16:34:08.615750+00:00",
-                "last_updated": "2019-08-11T16:34:08.615750+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
+            "last_seen": "2019-08-11T19:48:05.026818+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolit vzhled",
@@ -105,34 +125,14 @@
                     ]
                 },
                 "context": {
-                    "id": "da625783e6fd4c65929bd50451ccf75c",
+                    "id": "1e4ec775bbff470485686c231b108471",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_select.hass_template",
-                "last_changed": "2019-08-11T16:34:08.615854+00:00",
-                "last_updated": "2019-08-11T16:34:08.615854+00:00",
+                "last_changed": "2019-08-11T19:17:31.157733+00:00",
+                "last_updated": "2019-08-11T19:17:31.157733+00:00",
                 "state": "Cyan"
-            }
-        },
-        {
-            "last_seen": "2019-08-11T17:49:26.003989+00:00",
-            "state": {
-                "attributes": {
-                    "editable": true,
-                    "friendly_name": "Misak",
-                    "id": "e529456b4a74457f834ab975d76a9589",
-                    "user_id": "76e2a05c7df1448ea2c52c31dc2f6261"
-                },
-                "context": {
-                    "id": "e926a4c7c30a42bba2253797fd408fd5",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "person.misak",
-                "last_changed": "2019-08-11T16:34:08.615962+00:00",
-                "last_updated": "2019-08-11T16:34:22.230374+00:00",
-                "state": "unknown"
             }
         }
     ],

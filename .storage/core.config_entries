@@ -22,6 +22,16 @@
                 "source": "onboarding",
                 "title": "Home",
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {},
+                "domain": "hacs",
+                "entry_id": "54cea95a662b4622a121a58ab6459879",
+                "options": {},
+                "source": "import",
+                "title": "configuration.yaml",
+                "version": 1
             }
         ]
     },
