@@ -1,5 +1,5 @@
 secrets.yaml
-custom_components/hacs
+custom_components
 home-assistant.log
 home-assistant_v2.db
 .HA_VERSION
