@@ -27,6 +27,15 @@
                 "name": null,
                 "platform": "met",
                 "unique_id": "home"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.kodi_ganymed_local",
+                "name": null,
+                "platform": "kodi",
+                "unique_id": "7989e370-fdcc-4f1e-92a4-41c803ef8d05"
             }
         ]
     },

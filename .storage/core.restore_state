@@ -1,25 +1,25 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen default theme",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "a3ff2054f59a41729ba5c39ff0e64e9e",
+                    "id": "e5832bc1bcdb4d7495e61bfe7e5065db",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.zvolen_default_theme",
-                "last_changed": "2019-08-11T16:23:08.850967+00:00",
-                "last_updated": "2019-08-11T16:23:08.850967+00:00",
+                "last_changed": "2019-08-11T16:34:08.615244+00:00",
+                "last_updated": "2019-08-11T16:34:08.615244+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Set awning position",
@@ -27,72 +27,72 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "d862cf3431ef491aa8411aa2bee45bc7",
+                    "id": "480f0c461c374320830f202ba53cc593",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.set_awning_position",
-                "last_changed": "2019-08-11T16:23:08.851119+00:00",
-                "last_updated": "2019-08-11T16:23:08.851119+00:00",
+                "last_changed": "2019-08-11T16:34:08.615406+00:00",
+                "last_updated": "2019-08-11T16:34:08.615406+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen oled theme",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "13d22b151aeb41e8a32ca9f5164ab5e9",
+                    "id": "9bc04438d45d47e184dacfc50d909207",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.zvolen_oled_theme",
-                "last_changed": "2019-08-11T16:23:08.851243+00:00",
-                "last_updated": "2019-08-11T16:23:08.851243+00:00",
+                "last_changed": "2019-08-11T16:34:08.615527+00:00",
+                "last_updated": "2019-08-11T16:34:08.615527+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen theme Dark Cyan",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "340f308cb8bb42158678cedc557fe684",
+                    "id": "f0b375395a224be4a7d184194ed9214f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.zvolen_theme_dark_cyan",
-                "last_changed": "2019-08-11T16:23:08.851361+00:00",
-                "last_updated": "2019-08-11T16:23:08.851361+00:00",
+                "last_changed": "2019-08-11T16:34:08.615644+00:00",
+                "last_updated": "2019-08-11T16:34:08.615644+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolen theme Dark Red",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "9fd62eedab574b468fbbaf3a571b9c68",
+                    "id": "35ecff9bfaf74bc0ac47769ef53592f3",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.zvolen_theme_dark_red",
-                "last_changed": "2019-08-11T16:23:08.851476+00:00",
-                "last_updated": "2019-08-11T16:23:08.851476+00:00",
+                "last_changed": "2019-08-11T16:34:08.615750+00:00",
+                "last_updated": "2019-08-11T16:34:08.615750+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-11T16:23:10.115611+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Zvolit vzhled",
@@ -105,33 +105,34 @@
                     ]
                 },
                 "context": {
-                    "id": "56b538ee6dd949689f021d1536253cf4",
+                    "id": "da625783e6fd4c65929bd50451ccf75c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_select.hass_template",
-                "last_changed": "2019-08-11T16:23:08.866311+00:00",
-                "last_updated": "2019-08-11T16:23:08.866311+00:00",
+                "last_changed": "2019-08-11T16:34:08.615854+00:00",
+                "last_updated": "2019-08-11T16:34:08.615854+00:00",
                 "state": "Cyan"
             }
         },
         {
-            "last_seen": "2019-08-11T16:22:54.111554+00:00",
+            "last_seen": "2019-08-11T16:34:22.225780+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Misak",
-                    "id": "d26b9f181d2a4a74822375f76172f4b2",
-                    "user_id": "5369649b86f84e7d8173e13b9b4b8d00"
+                    "id": "e529456b4a74457f834ab975d76a9589",
+                    "source": "person.misak",
+                    "user_id": "76e2a05c7df1448ea2c52c31dc2f6261"
                 },
                 "context": {
-                    "id": "ad61eaf84c994959b45f267a8968d4c5",
+                    "id": "e9e39480947246ab9fecbb9e79ab526e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.misak",
-                "last_changed": "2019-08-11T16:18:52.399762+00:00",
-                "last_updated": "2019-08-11T16:18:52.399762+00:00",
+                "last_changed": "2019-08-11T16:34:08.615962+00:00",
+                "last_updated": "2019-08-11T16:34:08.615962+00:00",
                 "state": "unknown"
             }
         }
