@@ -9,6 +9,7 @@ shelly:
 frontend:
   themes: !include themes.yaml
 
+sun:
 discovery:
 
 hacs:
